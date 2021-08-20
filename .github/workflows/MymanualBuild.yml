@@ -1,3 +1,6 @@
 name: MymanualBuild
 on: [workflow_dispatch]
 
+jobs:
+  mybuild:
+    runs-on: ubuntu-latest
